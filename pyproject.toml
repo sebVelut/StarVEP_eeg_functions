@@ -21,3 +21,16 @@ dependencies = [
     "imbalanced-learn>=0.14.1",
 ]
 
+[tool.hatch.build.targets.wheel]
+packages = ["Alignment", "."]
+
+[tool.pytest.ini_options]
+markers = [
+    "integration: tests that need optional CLIs or long-running services",
+]
+
+[tool.isort]
+profile = "black"
+line_length = 90
+
+
