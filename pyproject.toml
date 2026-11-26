@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "StarVEP_eeg_functions"
+version = "0.0.1"
+description = "Useful functions to load, preprocess and use StarVEP data"
+requires-python = ">=3.10"
+dependencies = [
+    "gromo",
+    "torch",
+    "torchvision",
+    "numpy",
+    "tqdm",
+    "pyyaml",
+    "scikit-learn",
+    "wandb>=0.17",
+    "mne>=1.11.0",
+    "pyriemann>=0.10",
+    "imbalanced-learn>=0.14.1",
+]
+
