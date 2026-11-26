@@ -216,4 +216,4 @@ multi-channel time-series inputs.
 ## Related projects
 
 - Gromo: growing neural-network modules and containers.
-- StArcVEP Zenodo dataset:  and its EEGLAB annotations.
+- StArcVEP Zenodo dataset: https://zenodo.org/records/13838406 and its EEGLAB annotations.
